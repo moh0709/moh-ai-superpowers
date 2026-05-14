@@ -1,5 +1,7 @@
 # MOH AI SuperPowers
 
+![MOH AI SuperPowers banner](assets/banner.svg)
+
 **MOH AI SuperPowers** is a reusable AI engineering skill framework for AI coding agents.
 
 It combines:
@@ -44,6 +46,8 @@ moh-ai-superpowers/
 ├── LICENSE
 ├── AGENTS.md
 ├── CLAUDE.md
+├── assets/
+│   └── banner.svg
 ├── skills/
 │   └── moh-ai-superpowers/
 │       └── SKILL.md
