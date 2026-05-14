@@ -1,0 +1,106 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">MOH AI SuperPowers Banner</title>
+  <desc id="desc">A futuristic banner for the MOH AI SuperPowers AI engineering skill framework.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#080A16"/>
+      <stop offset="0.45" stop-color="#111A3D"/>
+      <stop offset="1" stop-color="#0A1025"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1260 135) rotate(125) scale(520 360)">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.8"/>
+      <stop offset="0.55" stop-color="#2563EB" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(315 400) rotate(-25) scale(520 300)">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="1040" y1="90" x2="1410" y2="390" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="146" y1="155" x2="715" y2="155" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.48" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.13 0 0 0 0 0.82 0 0 0 0 0.93 0 0 0 0.75 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M 54 0 L 0 0 0 54" fill="none" stroke="#FFFFFF" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="500" rx="34" fill="url(#bg)"/>
+  <rect width="1600" height="500" rx="34" fill="url(#grid)"/>
+  <rect width="1600" height="500" rx="34" fill="url(#glow1)"/>
+  <rect width="1600" height="500" rx="34" fill="url(#glow2)"/>
+
+  <g opacity="0.75">
+    <path d="M1080 120C980 143 900 210 812 250C700 301 585 275 484 335C386 394 332 428 220 420" stroke="#22D3EE" stroke-opacity="0.22" stroke-width="2"/>
+    <path d="M1510 310C1390 275 1308 262 1195 305C1066 354 982 388 832 359C650 324 538 382 388 455" stroke="#A855F7" stroke-opacity="0.2" stroke-width="2"/>
+    <circle cx="812" cy="250" r="4" fill="#22D3EE" opacity="0.9"/>
+    <circle cx="1195" cy="305" r="4" fill="#A855F7" opacity="0.9"/>
+    <circle cx="484" cy="335" r="4" fill="#818CF8" opacity="0.9"/>
+  </g>
+
+  <g transform="translate(110 96)">
+    <rect x="0" y="0" width="90" height="90" rx="26" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <path d="M45 18L52.8 34.1L70.5 36.7L57.7 49.2L60.7 66.8L45 58.5L29.3 66.8L32.3 49.2L19.5 36.7L37.2 34.1L45 18Z" fill="url(#accent)" filter="url(#softGlow)"/>
+  </g>
+
+  <g transform="translate(145 140)">
+    <text x="0" y="0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="4" fill="#22D3EE">AI ENGINEERING SKILL FRAMEWORK</text>
+    <text x="0" y="82" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="76" font-weight="850" letter-spacing="-3" fill="#FFFFFF">MOH AI SuperPowers</text>
+    <rect x="0" y="112" width="565" height="4" rx="2" fill="url(#accent)"/>
+    <text x="0" y="170" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="29" font-weight="500" fill="#CBD5E1">Plan clearly · Edit surgically · Verify honestly</text>
+    <g transform="translate(0 218)">
+      <rect x="0" y="0" width="196" height="46" rx="23" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+      <text x="25" y="30" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#E2E8F0">Due Diligence PASS</text>
+      <rect x="216" y="0" width="170" height="46" rx="23" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+      <text x="242" y="30" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#E2E8F0">Safe Governance</text>
+      <rect x="406" y="0" width="150" height="46" rx="23" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+      <text x="434" y="30" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#E2E8F0">Verified Work</text>
+    </g>
+  </g>
+
+  <g transform="translate(1015 82)" filter="url(#shadow)">
+    <rect x="0" y="0" width="430" height="335" rx="34" fill="url(#card)" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <rect x="38" y="40" width="354" height="52" rx="16" fill="#0F172A" fill-opacity="0.76" stroke="#22D3EE" stroke-opacity="0.28"/>
+    <circle cx="66" cy="66" r="7" fill="#22D3EE"/>
+    <circle cx="90" cy="66" r="7" fill="#818CF8"/>
+    <circle cx="114" cy="66" r="7" fill="#A855F7"/>
+    <text x="145" y="72" font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="700" fill="#E2E8F0">MOH_SKILL.md</text>
+
+    <g font-family="JetBrains Mono, Consolas, monospace" font-size="18" font-weight="600">
+      <text x="48" y="132" fill="#22D3EE">✓</text>
+      <text x="82" y="132" fill="#E2E8F0">Due diligence: PASS</text>
+      <text x="48" y="176" fill="#22D3EE">✓</text>
+      <text x="82" y="176" fill="#E2E8F0">Risk classified</text>
+      <text x="48" y="220" fill="#22D3EE">✓</text>
+      <text x="82" y="220" fill="#E2E8F0">Small safe change</text>
+      <text x="48" y="264" fill="#22D3EE">✓</text>
+      <text x="82" y="264" fill="#E2E8F0">Verification required</text>
+    </g>
+
+    <path d="M340 250L366 276L390 212" stroke="#22D3EE" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)"/>
+  </g>
+
+  <g opacity="0.55">
+    <circle cx="1495" cy="70" r="3" fill="#FFFFFF"/>
+    <circle cx="1528" cy="118" r="2" fill="#FFFFFF"/>
+    <circle cx="955" cy="63" r="2" fill="#FFFFFF"/>
+    <circle cx="86" cy="426" r="3" fill="#FFFFFF"/>
+    <circle cx="742" cy="442" r="2" fill="#FFFFFF"/>
+  </g>
+</svg>
