@@ -1,0 +1,23 @@
+# Copy to .github/workflows/frontier-tests.yml only after repository-owner review.
+name: Frontier Harness Integrity
+on:
+  pull_request:
+  push:
+    branches: ["frontier/**"]
+permissions:
+  contents: read
+jobs:
+  integrity:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run local controller and adversarial regression tests
+        run: python -m unittest discover -s frontier/tests -q
+      - name: Check source bytecode compilation
+        run: python -m compileall -q frontier
+      - name: Run targeted P0 versus P1 comparator
+        run: python -m frontier.evals.compare_gates

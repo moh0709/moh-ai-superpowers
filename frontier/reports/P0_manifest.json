@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-11-23",
+  "status": "partially_verified",
+  "repo": "moh0709/moh-ai-superpowers",
+  "repo_commit": "4c6212bb0af41a084bb657e254b590839033c1f8",
+  "unit_tests_passed": 57,
+  "unit_tests_failed": 0,
+  "runtime_statement_coverage_percent": 90,
+  "real_agent_tasks": 0,
+  "limitations": [
+    "no tool interception",
+    "no live coding benchmark",
+    "no independent external reviewer",
+    "no changes to GitHub repository"
+  ],
+  "files": {
+    "frontier/README.md": "f066304b07a15c4bf1b84edcf369293e9749fa2d219d01a4612c3856016baa3c",
+    "frontier/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "frontier/runtime/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "frontier/runtime/gate.py": "1365debbc6617c7e4e9b70a992c27ddaf5eaf9123d91e69bb9e93a3e621034b0",
+    "frontier/runtime/score.py": "85fc308abce3eabdef1f9740ff5b114e5595862fee278ec52d50342b7ccd30e4",
+    "frontier/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "frontier/tests/test_gate.py": "186802f53ec09828a890cbb2c424d463ba043df17924e5c0dfc1027d561cf7cc",
+    "frontier/tests/test_score.py": "3144fee6c48ac2627f87145b665aa4f1abc02db5bfeb8fba06891f7ec09af76e"
+  }
+}
